@@ -1,0 +1,44 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .header nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .header nav button:hover {
+    background-color: #777;
+  }
+  
+  /* Pages */
+  .page {
+    padding: 2rem;
+    display: none; /* Hidden by default */
+  }
+  
+  .page.hidden {
+    display: none;
+  }
+  
+  .page:not(.hidden) {
+    display: block;
+  }
+  
