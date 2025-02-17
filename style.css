@@ -41,4 +41,45 @@ body {
   .page:not(.hidden) {
     display: block;
   }
+
+  h3.question {
+    font-family:"Roboto", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 100;
+  }
+  .editor-container{
+    width: 900px;
+    height: 540px;
+    margin:20px auto;
+    position: relative;
+  }
+  #editor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+  }
+
+/* ✅ Output Styling ✅ */
+#output-container {
+  width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #eee;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#output {
+  white-space: pre-wrap;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  min-height: 50px;
+}
   
